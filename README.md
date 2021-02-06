@@ -15,11 +15,17 @@ git clone https://github.com/ieee-ucsd-tech/personal-website-starter.git
 cd personal-website-starter
 ```
 
-and update it so any pushes will be made to your new repository
+and update its remote url so any pushes will be made to your new repository
 
 ```
 git remote set-url https://github.com/[your-username]/[your-username].github.io.git
 ```
+
+then install all the dependencies
+```
+npm install
+```
+
 \
 The starter code comes with [Sass](https://sass-lang.com/) preconfigured, and supports absolute imports in the `src` folder.
 
